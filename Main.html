@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-phones : Login</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="admin" />
+    <meta name="viewpoint" content="width=device-widht, inital-scale=1.0" />
+    <meta name="keywords" content="Smartphones,android phones,Iphone,mobiles" />
+    <meta name="description" content="Best Smartphones on Ephones" />
+    <meta name="revised" content="admin,30/05/2024" />
+    <style>
+      .new {
+        font-style: italic;
+        font-weight: bold;
+        border: solid;
+        border-color: black;
+        text-align: center;
+        background-color: rgb(115, 255, 0);
+        border-radius: 30px;
+        width: 400px;
+        height: 400px;
+        padding: auto;
+        margin: auto;
+      }
+      body {
+        padding-top: 100px;
+        background-color: rgb(0, 102, 255);
+      }
+      .head {
+        text-align: center;
+      }
+      .x {
+        border: solid;
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+      }
+      h3 {
+        display: none;
+      }
+      .x h3 {
+        font-style: italic;
+        border: solid;
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        position: relative;
+        background-color: rgb(115, 255, 0);
+        border-radius: 20px;
+        right: 300px;
+        padding: 25px;
+      }
+      .x:hover h3 {
+        display: block;
+        animation-name: chatbot;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes chatbot {
+        100% {
+          background-color: rgb(115, 255, 0);
+        }
+        50% {
+          background-color: rgb(115, 255, 0);
+          color: rgb(255, 255, 255);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="x">
+      <img
+        src="https://media.istockphoto.com/id/1010001882/vector/%C3%B0%C3%B0%C2%B5%C3%B1%C3%B0%C3%B1%C3%B1.jpg?s=612x612&w=0&k=20&c=1jeAr9KSx3sG7SKxUPR_j8WPSZq_NIKL0P-MA4F1xRw="
+      />
+      <h3>
+        Hi! How Can I Help You?<br />
+        mail us at ephone@gmail.com
+      </h3>
+    </div>
+
+    <div class="new">
+      <div class="head">
+        <br /><br />
+        <strong>Log In</strong>
+      </div>
+      <br /><br />
+
+      <div>
+        <form action="welcome.html" method="post" target="_self">
+          <label for="emailid">Email ID :</label><br />
+          <input type="email" name="emailid" /><br /><br /><br />
+          <label for="pass">Password :</label><br />
+          <input type="password" name="pass" />
+          <br />
+          <br />
+          <br />
+          <button type="submit">Log in</button>
+          <br />
+          <br />
+        </form>
+        <form action="index.html" method="post" target="_self">
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+      <div>
+        <br /><br />
+        <strong>&copy copyrights reserved</strong>
+      </div>
+    </div>
+  </body>
+</html>
